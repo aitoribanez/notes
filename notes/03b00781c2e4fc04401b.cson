@@ -1,0 +1,19 @@
+type: "MARKDOWN_NOTE"
+folder: "3e28bcd5935349e72948"
+title: "Componente con styles y templates inline"
+content: '''
+  Componente con styles y templates inline
+  
+  Generar componente con angular-cli con styles y template inline
+  
+  ```
+  ng generate component hello --inline-style --inline-template
+  ```
+'''
+tags: [
+  "angular"
+  "angular-cli"
+]
+isStarred: false
+createdAt: "2017-06-10T16:23:22.500Z"
+updatedAt: "2017-06-10T16:30:52.769Z"
