@@ -9,11 +9,10 @@ content: '''
   ```
 '''
 title: "Componente con styles y templates inline"
-folder: "b9a5e5e3b6a080f2db61"
+folder: "3e28bcd5935349e72948"
 createdAt: "2017-06-10T21:49:58.919Z"
-updatedAt: "2017-06-10T21:50:49.078Z"
+updatedAt: "2017-06-10T21:53:51.412Z"
 isStarred: false
 tags: [
-  "angular"
   "angular-cli"
 ]
