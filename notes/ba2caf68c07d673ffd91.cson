@@ -1,0 +1,70 @@
+type: "MARKDOWN_NOTE"
+folder: "3e28bcd5935349e72948"
+title: "ReactiveForm"
+content: '''
+  ReactiveForm
+  
+  Ejemplo:
+  
+  En *app.modulets*:
+  
+  ```
+  import { ReactiveFormsModule } from '@angular/forms';
+  
+  imports: [
+      ...  
+      ReactiveFormsModule
+  ```
+  
+  ```html
+  <form [formGroup]="pageForm" (ngSubmit)="save()">
+    <input name="title" formControlName="title" mdInput placeholder="Title" value="">
+    <app-tinymce formControlName="description"></app-tinymce>
+  </form>
+  ```
+  
+  ```ts
+  import { FormGroup, FormControl, FormBuilder, Validators } from '@angular/forms';
+  
+  @Component({ ... })
+  export class FormPagesComponent {
+    content = 'contenido';
+    pageForm: FormGroup;
+  
+    constructor(fb: FormBuilder) { 
+      this.pageForm = fb.group({
+        title: ['', Validators.required],
+        description: [this.content, Validators.required]
+      });
+    }
+  
+    save() {
+      console.log('event', this.pageForm.value)
+    }
+  ```
+  
+  = Teoria =
+  
+  *FormControl*
+  
+  A class that powers an individual form control, tracks the value and validation status, whilst offering a wide set of public API methods.
+  
+  *FormGroup*
+  
+  A group of FormControl instances, also keeps track of the value and validation status for the said group, also offers public APIs.
+  
+  *FormBuilder*
+  
+  It’s essentially syntax sugar that creates FormGroup, FormControl and FormArray instances for us.
+  
+  https://github.com/aitoribanez/ng2-reactive-form
+  
+  
+'''
+tags: [
+  "reactiveForm"
+  "form"
+]
+isStarred: false
+createdAt: "2017-06-30T11:58:43.020Z"
+updatedAt: "2017-06-30T12:04:09.895Z"

@@ -1,0 +1,15 @@
+type: "MARKDOWN_NOTE"
+folder: "f0b6659960afe27c7d8d"
+title: "Crear etiqueta"
+content: '''
+  Crear etiqueta
+  
+  ```
+  git tag -a v0.0.8
+  ```
+  
+'''
+tags: []
+isStarred: false
+createdAt: "2017-06-26T23:30:00.033Z"
+updatedAt: "2017-06-26T23:31:16.227Z"

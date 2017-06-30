@@ -1,14 +1,19 @@
 {
   "folders": [
     {
-      "key": "b9a5e5e3b6a080f2db61",
-      "color": "#6AA5E9",
-      "name": "play"
-    },
-    {
       "key": "3e28bcd5935349e72948",
       "color": "#3FD941",
       "name": "angular"
+    },
+    {
+      "key": "f0b6659960afe27c7d8d",
+      "color": "#2BA5F7",
+      "name": "git"
+    },
+    {
+      "key": "af0ee4592d87ce3e4512",
+      "color": "#3FD941",
+      "name": "ideas"
     }
   ],
   "version": "1.0"

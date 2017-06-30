@@ -1,0 +1,16 @@
+type: "MARKDOWN_NOTE"
+folder: "f0b6659960afe27c7d8d"
+title: "Pasar a un commit concreto"
+content: '''
+  Pasar a un commit concreto
+  
+  ```
+  git checkout <commit>
+  ```
+'''
+tags: [
+  "git"
+]
+isStarred: false
+createdAt: "2017-06-12T17:34:13.979Z"
+updatedAt: "2017-06-13T00:23:48.873Z"

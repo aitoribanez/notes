@@ -1,0 +1,33 @@
+type: "MARKDOWN_NOTE"
+folder: "af0ee4592d87ce3e4512"
+title: "Hacer algo con la gentrificacion de Gros"
+content: '''
+  Hacer algo con la gentrificacion de Gros
+  
+  - Informacion de casas de alquiler para turistas (como denuncia) 
+    - Sacar datos de [rentalia](https://es.rentalia.com/alquiler-vacaciones-donostia-san-sebastian/).
+    - [Funcionalidad][Basico] Mapa con los puntos de los pisos de alquiler para turistas. Al click en chincheta saca bocadillo con direccion, precio, alquilado o no.
+    - [Funcionalidad][Basico] Sacar el numero de pisos que hay en las diferentes paginas de alquiler/venta de pisos en alquiler (por ahora solo los de idealista) en Donosti, Bilbo, Biarritz, Iruña, Gazteiz, Madrid, Barcelona, Paris.
+  - Cambios en los precios de alquileres y venta en Donosti. Empezar por Gros.
+    - Sacar datos [idealista](https://www.idealista.com/alquiler-viviendas/donostia-san-sebastian-guipuzcoa/).
+    - [Funcionalidad][Básico] Cojer 10 pisos en alquier de Gros, scrapear como json en mongo y usar eso datos en una webapp de angular para ver cambios de precios semanalmente.
+      - https://www.idealista.com/inmueble/37238282/ (sin punto fijo)
+      - https://www.idealista.com/inmueble/33289964/
+      - https://www.idealista.com/inmueble/34361128/
+      - https://www.idealista.com/inmueble/30334970/
+      - https://www.idealista.com/inmueble/25631487/
+      - https://www.idealista.com/inmueble/33241883/
+      - https://www.idealista.com/inmueble/34139983/
+      - https://www.idealista.com/inmueble/33091699/
+      - https://www.idealista.com/inmueble/37142059/
+      - https://www.idealista.com/inmueble/34722616/
+      - https://www.idealista.com/inmueble/37209292/
+      - https://www.idealista.com/inmueble/34955565/
+  
+    - [Funcionalidad][Secundaria] Cojer 10 pisos en venta de Gros, scrapear como json en mongo y usar eso datos en una webapp de angular para ver cambios de precios semanalmente.
+  
+'''
+tags: []
+isStarred: false
+createdAt: "2017-06-13T22:51:57.348Z"
+updatedAt: "2017-06-13T23:30:13.828Z"
